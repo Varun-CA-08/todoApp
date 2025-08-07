@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb://localhost:27017/todo-app', {
+mongoose.connect('mongodb+srv://varunca:Varunca06@varun.zt1jo4e.mongodb.net/?retryWrites=true&w=majority&appName=varun', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
